@@ -27,6 +27,9 @@ urlpatterns = [
     path("", viewsExtranet.indice, name="index"),
     path("login/", viewsAutenticacion.login, name="loginUsuario"),
     path("registroUsuario/", viewsAutenticacion.registro, name="registroUsuario"),
-    path("copiadero/", viewsExtranet.indice3 , name="footers"),
     path("baseExtranet/", viewsExtranet.indice2 , name="footers"),
+    path("local1/", viewsExtranet.indice3 , name="local1"),
+    path("local2/", viewsExtranet.indice4 , name="local2"),
+    path("local3/", viewsExtranet.indice5 , name="local3"),
+
 ]

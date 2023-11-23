@@ -9,4 +9,11 @@ def indice2(request):
     return render(request, '../templates/extranet/baseExtranet.html')
 
 def indice3(request):
-    return render(request, '../templates/footersYHeaders/copiadero.html')
+    return render(request, '../templates/content/local1.html')
+
+def indice4(request):
+    return render(request, '../templates/content/local2.html')
+
+def indice5(request):
+    return render(request, '../templates/content/local3.html')
+
